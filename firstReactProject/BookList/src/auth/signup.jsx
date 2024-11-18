@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import style from "../styles/signup.module.css";
 import CustomButton from "../reuseables/CustomButton";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
 
+  const navigate = useNavigate();
   const userDetails = {
     username: "",
     email: "",
     password: "",
 };
 
+  
   const [data, setData] = useState(userDetails); // we are here
 
   //****************we are here********************/
@@ -24,13 +26,23 @@ const Signup = () => {
 
     }
 
-    console.log(data)
+    // console.log(data)
+
+    
+    const handleSubmit = ()=> {
+      console.log('submitted....')
+      window.alert("submission successfully....")
+      // setTimeout(()=>{
+          navigate("/login")
+      // }, 6000)
+  }
+
 
   return (
     <>
       <div>
-        <form action="#" className={style.form}>
-          
+        <form action="" className={style.form} onSubmit={handleSubmit}>
+
         <div className={style.header}>
           <h1>sign up</h1>
         </div>

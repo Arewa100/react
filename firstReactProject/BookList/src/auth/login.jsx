@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import style from '../styles/login.module.css'
 import CustomButton from '../reuseables/CustomButton';
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Login = ()=> {
+
 
     const userDetails = {
         username: "",
         password: ""
     }
-
     const [data, setData] = useState(userDetails)
 
     function handleChange(event) {
@@ -19,12 +19,13 @@ const Login = ()=> {
         })
     }
 
+    // console.log(data)
 
     return (
         <>
         <div className="loginBody">
         
-            <form action="#" className={style.form}>
+            <form action="" className={style.form}>
 
                 <div className={style.login}>
                     <h1>Login</h1>

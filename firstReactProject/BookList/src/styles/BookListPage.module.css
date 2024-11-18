@@ -1,0 +1,168 @@
+.mainWrapper {
+    size: 100%;
+    /* background-color:  rgb(73, 73, 239); */
+    
+}
+
+.todoList {
+    width: 988px;
+    height: 700px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    margin-top: 30px;
+}
+
+
+
+.addTask {
+    width:950px;
+    height: 300px;
+    /* background-color: brown;  */
+    margin-top: 40px;
+    
+}
+
+.addTaskInputDiv { 
+    height: 40px;
+    width: 470px;
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addTaskInputDiv input {
+    width: 350px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    border: 1px solid rgb(237, 227, 227);
+    outline: none;
+    margin: auto;
+}
+
+.addTaskInputDiv button {
+    height: 43.4px;
+    width: 120px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    outline: none;
+    background-color: rgb(73, 73, 239);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.theList {
+    width: 949px;
+    margin-top: 60px;
+    border:1px solid rgb(73, 73, 239);
+    background-color: white;
+    padding: 20px
+}
+
+.image p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.theList ul {
+    list-style: none;
+    /* background-color: #FD6F00; */
+    
+}
+
+
+.theList ul>li {
+    /* background-color: #FD6F00; */
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    border: 10px solid  grey;
+    border-top: white;
+    border-bottom: white;
+    border-right: white;
+    margin-top: 10px;
+}
+
+
+.theList ul>li:hover{
+    border-color: rgb(73, 73, 239);
+}
+
+.theList ul>li>span {
+    /* background-color: red; */
+    margin-top: 6px;
+
+}
+
+
+.check input{
+    width: 20px;
+    height: 20px;
+}
+
+.checkBox {
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.check button{
+    width: 100px;
+    height: 45px;
+     font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(73, 73, 239);
+    border: none;
+    color: white;
+}
+
+
+
+.searchtask {
+    width:950px;
+    height: 30px;
+    /* background-color: brown;  */
+    margin-top: 40px;
+    
+}
+
+.searchTaskInputDiv {
+    height: 40px;
+    width: 470px;
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchTaskInputDiv input {
+    width: 350px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    border: 1px solid rgb(237, 227, 227);
+    outline: none;
+    margin: auto;
+}
+
+.todolist p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(73, 73, 239);
+}
