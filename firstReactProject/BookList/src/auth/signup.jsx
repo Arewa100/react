@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Signup = () => {
 
   const navigate = useNavigate();
+
   const userDetails = {
     username: "",
     email: "",
@@ -13,7 +14,7 @@ const Signup = () => {
 };
 
   
-  const [data, setData] = useState(userDetails); // we are here
+  const [data, setData] = useState(userDetails); 
 
   //****************we are here********************/
     function handleChange(event) {
@@ -31,7 +32,7 @@ const Signup = () => {
     
     const handleSubmit = ()=> {
       console.log('submitted....')
-      window.alert("submission successfully....")
+      window.alert("signup successfull....")
       // setTimeout(()=>{
           navigate("/login")
       // }, 6000)
@@ -64,7 +65,7 @@ const Signup = () => {
               className={style.input}
               name="email"
               placeholder="Enter Email"
-                onChange={handleChange}
+              onChange={handleChange}
               required
             />
           </div>

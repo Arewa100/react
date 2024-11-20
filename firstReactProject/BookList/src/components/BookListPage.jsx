@@ -13,7 +13,7 @@ const BookListPage = ()=> {
 
     const addBook = (event)=> {
     
-        if( event.target[0].value != "") {
+        if(event.target[0].value != "") {
             event.preventDefault();
             const newBook = event.target[0].value
             setBookList([...booklist, newBook])
@@ -24,8 +24,13 @@ const BookListPage = ()=> {
 
     const handleDelete = (index)=> {
         setBookList(booklist.filter((_, i)=> (i != index)))
-    
     }
+
+    const handleSearch = (event)=> {
+          const result = booklist.filter(content=> (content.toLowerCase().includes(event.target.value)))
+          setBookList(result)
+    }
+    
 
     return (
         <>
@@ -37,13 +42,13 @@ const BookListPage = ()=> {
                                 <div className={style.image}>
                                     <img src="../react.svg" alt=""/>
                                     <div className={style.todolist}>
-                                        <p>To-Do-List</p>
+                                        <p><span>To-</span>Do-List</p>
                                     </div>
                                 </div>
 
                                 <div className={style.search}>
                                     <div className={style.searchTaskInputDiv}>
-                                        <input type="text" className={style.searchTaskInput} placeholder="search task..." />
+                                        <input type="text" className={style.searchTaskInput} placeholder="search task..." onChange={handleSearch}/>
                                     </div>
                                 </div>
 

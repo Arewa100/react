@@ -75,7 +75,6 @@
 .theList ul {
     list-style: none;
     /* background-color: #FD6F00; */
-    
 }
 
 
@@ -109,6 +108,7 @@
 .check input{
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
 
 .checkBox {
@@ -165,4 +165,12 @@
     font-weight: 700;
     font-size: 50px;
     color: rgb(73, 73, 239);
+}
+
+
+.todolist p span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(252, 73, 8);
 }
