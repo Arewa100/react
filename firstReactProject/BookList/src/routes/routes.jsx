@@ -14,6 +14,11 @@ const routes = [
     {
         path: '/booklist',
         element: <BookListPage />
+    },
+
+    {
+        path:'/',
+        element: <Login/>
     }
 ]
 

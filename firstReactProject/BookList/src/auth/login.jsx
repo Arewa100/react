@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import style from '../styles/login.module.css'
 import CustomButton from '../reuseables/CustomButton';
-import { Link } from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 
 const Login = ()=> {
 
+    const navigate = useNavigate();
 
     const userDetails = {
         username: "",
@@ -21,11 +22,16 @@ const Login = ()=> {
 
     // console.log(data)
 
+
+    const handleSubmit = ()=> {
+        navigate('./booklist')
+    }
+
     return (
         <>
         <div className="loginBody">
         
-            <form action="" className={style.form}>
+            <form action="" className={style.form} onSubmit={handleSubmit}>
 
                 <div className={style.login}>
                     <h1>Login</h1>
