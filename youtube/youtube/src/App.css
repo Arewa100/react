@@ -1,0 +1,14 @@
+#root {
+  width: 95vw;
+  height: 99vh;
+  margin: auto;
+  margin-top: 20px;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(235, 232, 232);
+  opacity: 50%;
+}
+
+.image {
+  background-image: url(./assets/first.svg);
+}

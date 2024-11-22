@@ -10,6 +10,7 @@ const BookListPage = ()=> {
     ]
 
     const [booklist, setBookList] = useState(books);
+    const [searchBook, setBoook] = useState('')
 
     const addBook = (event)=> {
     
@@ -27,7 +28,7 @@ const BookListPage = ()=> {
     }
 
     const handleSearch = (event)=> {
-          const result = booklist.filter(content=> (content.toLowerCase().includes(event.target.value)))
+          const result = booklist.filter(book=> (book.toLowerCase().includes(event.target.value)))
           setBookList(result)
     }
     
