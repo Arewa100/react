@@ -1,0 +1,22 @@
+.images img {
+    width: 200px;
+    
+}
+.images {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    gap: 12px;
+}
+
+.title p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    color:rgb(183, 195, 11);
+}
+.title {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(16, 11, 11);
+}

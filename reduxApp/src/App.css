@@ -1,9 +1,9 @@
 #root {
-  width: 900px;
-  height: 1500px;
+  width: 1100px;
+  height: auto;
   margin: auto;
   padding: 0;
-  text-align: center;
+  /* text-align: center; */
   background-color: pink;
   
 }

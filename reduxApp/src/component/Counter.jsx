@@ -5,7 +5,7 @@ import style from '../assets/counter.module.css'
 
 const Counter = () => {
   const count = useSelector((state)=> state.counter.value)
-  const dispatch = useDispatch()  // this talks to the redux store and retrives info from the store
+  const dispatch = useDispatch()  // this talks to the redux store and retrives info from the store, manipulaes the store
   return (
     <>
     <span>{count}</span><br />
