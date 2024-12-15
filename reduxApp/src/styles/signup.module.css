@@ -25,6 +25,7 @@
     width: 200px;
     height:250px;
     margin: auto;
+    margin-top: 100px;
     border:.02rem solid grey;
     background-color: white;
     border-radius: 4px;
@@ -101,4 +102,8 @@
 
 .header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.signUpDiv {
+    text-align: center;
 }

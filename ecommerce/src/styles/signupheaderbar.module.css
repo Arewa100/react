@@ -1,0 +1,41 @@
+.barDiv {
+    width: 1440px;
+    height: 38px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barDiv p {
+    color: #FFFFFF;
+    width: 351px;
+    height: 19px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.9px;
+    font-style: normal;
+    /* background-color: red; */
+    margin-left: 420px;
+}
+
+.barDiv p span {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.9px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.barDiv p a {
+    text-decoration: none;
+}
+
+
+.image {
+    margin-left: 200px;
+}
+
+

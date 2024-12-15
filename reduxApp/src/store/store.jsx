@@ -8,6 +8,7 @@ export const store = configureStore({
     reducer: {
         [movieApi.reducerPath]: movieApi.reducer
     },
+    
     middleware: (getDefaultMiddleware)=> {
         return getDefaultMiddleware().concat(movieApi.middleware)
     }

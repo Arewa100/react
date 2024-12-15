@@ -1,12 +1,11 @@
-.form {
-
+/* .form {
     width: 200px;
     height:250px;
     margin: auto;
     border:.02rem solid grey;
     background-color: white;
     border-radius: 4px;
-}
+} */
 
 .input {
     margin-top: 18px;
@@ -89,4 +88,9 @@
     margin-top: 1px;
     margin-left: 2px;
     text-decoration: none;
+}
+
+.loginDiv {
+    text-align: center;
+    margin-top: 100px;
 }

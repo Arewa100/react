@@ -29,7 +29,7 @@ const Login = ()=> {
     // onSubmit={handleSubmit}
     return (
         <>
-        <div className="loginBody">
+        <div className={style.loginDiv}>
         
             <form action="" className={style.form} >
 

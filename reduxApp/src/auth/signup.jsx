@@ -41,7 +41,7 @@ const Signup = () => {
 
   return (
     <>
-      <div>
+      <div className={style.signUpDiv}>
         <form action="" className={style.form} onSubmit={handleSubmit}>
 
         <div className={style.header}>

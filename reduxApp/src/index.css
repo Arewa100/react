@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+body {
+  height: auto;
+  /* background-color: rgb(241, 241, 21); */
+}

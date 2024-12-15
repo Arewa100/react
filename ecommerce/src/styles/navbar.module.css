@@ -1,0 +1,117 @@
+.navBar {
+    width: 1240px;
+    position: relative;
+    height: 48px;
+    /* background-color: rgb(40, 33, 40); */
+    display: flex;
+    height: 100px;
+    gap: 30px;
+    align-items: center;
+    margin: auto;
+
+}
+.shopName {
+    width: 160px;
+    height: 22px;
+    /* background-color: red */
+}
+.shopName p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 160px;
+    height: 22px;
+    font-size: 20px;
+    font-weight: 700;
+    /* line-height: 38.4px; */
+}
+
+
+.selectbuttons {
+    /* background-color: red; */
+    width: 321px;
+    height: 22px;
+    gap: 24px;
+    margin-left: 1px;
+}
+
+.searchContainer {
+    /* background-color: red; */
+    width: 475px;
+    height: 48px;
+    align-items: center;
+}
+
+.cartsymbolsOne {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 62px;
+    height: 24px;  
+}
+
+.cartsymbolTwo {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 62px;
+    height: 24px;  
+}
+
+.selectbuttons ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    color: #000000;
+}
+.Shop {
+    display: flex;
+    /* background-color: yellow; */
+    width: 57px;
+    height: 22px;
+    align-items: center;
+    gap: 6px;
+}
+
+.search  {
+    width: 475px;
+    height: 48px;
+    border-radius: 62px;
+    background-color: #F0F0F0;
+    display: flex;
+    /* gap: 1px; */
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+.search input::placeholder {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    width: 151px;
+    height: 22px;
+    font-size: 16px;
+}
+
+.search input {
+    width: 420px;
+    height: 40px;
+    border-radius: 62px;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+
+.search i {
+    /* background-color: red; */
+    margin-left: 15px;
+    
+}
+
+
+
